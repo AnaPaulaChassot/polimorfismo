@@ -11,4 +11,8 @@ package polimorfismo;
  */
 public class polimorfismo {
     
+    public static void main(String[] args) {
+       calculadora c = new calculadora();
+    }
+    
 }
