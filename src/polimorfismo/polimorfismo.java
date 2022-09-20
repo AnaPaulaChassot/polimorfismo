@@ -12,7 +12,19 @@ package polimorfismo;
 public class polimorfismo {
     
     public static void main(String[] args) {
-       calculadora c = new calculadora();
+       /*
+        calculadora c = new calculadora();
+        System.out.println(c.somar(2,3,6));
+        */
+       
+       gato g = new gato();
+       cachorro c = new cachorro();
+       pato p = new pato();
+       
+       g.comunicar();
+       c.comunicar();
+       p.comunicar();
     }
+    
     
 }
